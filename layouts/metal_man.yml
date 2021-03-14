@@ -1,68 +1,106 @@
 Text:
-  font: Press Start 2P 20
+  font: Press Start 2P 16
   color: '#F3EFE3'
   align: center
   valign: middle
-  hint: '#939F83'
+  #hint: '#939F83'
 
 Action:
   extends: Text
+  font: Press Start 2P 20
   width: 825
-  height: 562.5
+  height: 281.25
   x: 0
   y: 0
 
-Hint:
+Damage:
   extends: Text
-  font: Press Start 2P 8
-  color: '#939F83'
-  y: 800
-  x: 112.5
-  width: 600
-  height: 200
-  spacing: 10
+  width: 825
+  height: 140.625
+  x: 0
+  y: 281.25
 
-Icon:
-  extends: Action
-  width: 500
-  height: 500
-  x: 162.5
-  y: 162.5
-
-InLocation:
+Delay:
   extends: Text
-  align: left
-  width: 775
-  height: 375
-  x: 25
+  width: 825
+  height: 140.625
+  x: 0
+  y: 421.875
 
-OutLocation:
+Lines:
+  stroke_color: '#F3EFE3'
+  stroke_width: 4
+
+LeftCenter:
+  x1: 0
+  y1: 562.5
+
+RightCenter:
+  x2: 825
+  y2: 562.5
+
+CenterLine:
+  extends:
+    - Lines
+    - LeftCenter
+    - RightCenter
+  stroke_width: 8
+
+BottomLine:
+  extends:
+    - Lines
+    - LeftCenter
+    - RightCenter
+  y1: "*= 1.5"
+  y2: "*= 1.5"
+
+LeftLine:
+  extends: Lines
+  x1: 275
+  y1: 562.5
+  x2: 275
+  y2: 1125
+
+RightLine:
+  extends: Lines
+  x1: 550
+  y1: 562.5
+  x2: 550
+  y2: 1125
+
+Location:
   extends: Text
-  align: right
-  width: 775
-  height: 375
-  x: 25
+  font: Press Start 2P 32
+  align: center
+  width: 275
+  height: 281.25
 
-InTop:
-  extends: InLocation
-  y: 0
+TopLeft:
+  extends: Location
+  x: 0
+  y: 562.5
 
-InMiddle:
-  extends: InLocation
-  y: 375
+TopMiddle:
+  extends: Location
+  x: 275
+  y: 562.5
 
-InBottom:
-  extends: InLocation
-  y: 750
+TopRight:
+  extends: Location
+  x: 550
+  y: 562.5
 
-OutTop:
-  extends: OutLocation
-  y: 0
+BottomLeft:
+  extends: Location
+  x: 0
+  y: 843.75
 
-OutMiddle:
-  extends: OutLocation
-  y: 375
+BottomMiddle:
+  extends: Location
+  x: 275
+  y: 843.75
 
-OutBottom:
-  extends: OutLocation
-  y: 750
+BottomRight:
+  extends: Location
+  x: 550
+  y: 843.75

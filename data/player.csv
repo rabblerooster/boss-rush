@@ -1,7 +1,26 @@
 Action,Hint,InTop,InMiddle,InBottom,OutTop,OutMiddle,OutBottom
-start!,,,,,,>,
-fire,,>,>,>x2,,>,
-jump,,,>,>,>,,
+ready!,,,,,,>,
+fire,Deal 1 damage to vulenrable enemy.,>,>,>x2,,>,
+fire,Deal 1 damage to vulenrable enemy.,>,>,>x2,,>,
+fire,Deal 1 damage to vulenrable enemy.,>,>,>x2,,>,
+fire,Deal 1 damage to vulenrable enemy.,>,>,>x2,,>,
+fire,Deal 1 damage to vulenrable enemy.,>,>,>x2,,>,
+jump,Move to top row for 1 turn.,,>,>,>,,
+jump,Move to top row for 1 turn.,,>,>,>,,
+jump,Move to top row for 1 turn.,,>,>,>,,
+jump,Move to top row for 1 turn.,,>,>,>,,
+jump,Move to top row for 1 turn.,,>,>,>,,
 charge,,,>,>,,,>
-move,,>,>,>,,>,
-shield,,>,>,>x2,,>,
+charge,,,>,>,,,>
+charge,,,>,>,,,>
+charge,,,>,>,,,>
+move,Move 1 space on bottom row.,>,>,>,,>,
+move,Move 1 space on bottom row.,>,>,>,,>,
+move,Move 1 space on bottom row.,>,>,>,,>,
+move,Move 1 space on bottom row.,>,>,>,,>,
+move,Move 1 space on bottom row.,>,>,>,,>,
+move,Move 1 space on bottom row.,>,>,>,,>,
+move,Move 1 space on bottom row.,>,>,>,,>,
+move,Move 1 space on bottom row.,>,>,>,,>,
+shield,Prevent 1 damage.,>,>,>x2,,>,
+shield,Prevent 1 damage.,>,>,>x2,,>,
