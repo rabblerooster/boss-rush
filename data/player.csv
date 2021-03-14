@@ -1,0 +1,4 @@
+Action,Hint,Icon
+fire,,mm_fire.png
+jump,,mm_jump.png
+charge,Double damage for next > FIRE action.,mm_stand.png

@@ -1,0 +1,29 @@
+AllText:
+  font: Press Start 2P 24
+  align: center
+  valign: middle
+
+Action:
+  extends: AllText
+  color: '#F3EFE3'
+  width: 825
+  x: 0
+  y: 800
+
+Hint:
+  extends: AllText
+  font: Press Start 2P 8
+  color: '#939F83'
+  y: 900
+  x: 112.5
+  width: 600
+  height: 200
+  valign: middle
+  spacing: 10
+
+Icon:
+  extends: Action
+  width: 500
+  height: 500
+  x: 162.5
+  y: 162.5

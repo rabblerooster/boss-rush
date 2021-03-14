@@ -1,0 +1,18 @@
+AllText:
+  font: Press Start 2P 24
+  align: center
+  valign: middle
+
+Title:
+  extends: AllText
+  color: '#F3EFE3'
+  width: 500
+  height: 825
+  x: 162.5
+  y: 300
+
+Icon:
+  width: 500
+  height: 500
+  x: 162.5
+  y: 312.5
