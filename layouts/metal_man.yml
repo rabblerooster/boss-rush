@@ -3,6 +3,7 @@ Text:
   color: '#F3EFE3'
   align: center
   valign: middle
+  hint: '#939F83'
 
 Action:
   extends: Text

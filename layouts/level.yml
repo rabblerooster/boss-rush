@@ -1,0 +1,45 @@
+Lines:
+  stroke_color: '#F3EFE3'
+  stroke_width: 8
+
+TopCenter:
+  x1: 412.5
+  y1: 0
+
+BottomCenter:
+  x2: 412.5
+  y2: 1125
+
+CenterLine:
+  extends:
+    - Lines
+    - TopCenter
+    - BottomCenter
+
+LeftTopThird:
+  x1: 0
+  y1: 375
+
+RightTopThird:
+  x2: 825
+  y2: 375
+
+TopThirdLine:
+  extends:
+   - Lines
+   - LeftTopThird
+   - RightTopThird
+
+LeftBottomThird:
+  x1: 0
+  y1: 750
+
+RightBottomThird:
+  x2: 825
+  y2: 750
+
+BottomThirdLine:
+  extends:
+   - Lines
+   - LeftBottomThird
+   - RightBottomThird

@@ -1,7 +1,6 @@
 Action,Hint,InTop,InMiddle,InBottom,OutTop,OutMiddle,OutBottom
-start!,,,,,,>,
 fire,,>,>,>x2,,>,
-jump,,,>,>,>,,
+jump,,,>,,>,,
 charge,,,>,>,,,>
 move,,>,>,>,,>,
 shield,,>,>,>x2,,>,
