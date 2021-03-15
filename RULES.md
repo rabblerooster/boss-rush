@@ -23,6 +23,7 @@ https://rabblerooster.github.io/boss-rush/boss-rush-tts.png
 * Flip the top card of the boss deck.
 * If the player token is on a space indicated for damage, discard a number of cards equal to the damage number. Remove all cards from the Ready! track and place them in the discard.
 * Note the Delay value - the player gets to take that many actions before the next boss phase.
+* If the boss's deck is empty flip it back over without shuffling, so the order stays the same!
 
 ## Player Phase
 
@@ -30,6 +31,7 @@ https://rabblerooster.github.io/boss-rush/boss-rush-tts.png
 * Take the action specified on the card, which may be moving the token, jumping, or firing on the boss.
 * If you can't (or don't want to) play a card, remove all cards but the Ready! card from the Ready! track and place them in your discard pile. Discard one card from your hand.
 * Draw another card and repeat until you've taken the number of actions equal to the delay on the current boss card.
+* When your deck is empty, shuffle cards from the discard pile into a new draw pile. Do not remove cards from the track.
 
 # Game End
 
